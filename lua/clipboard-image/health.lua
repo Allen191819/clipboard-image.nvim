@@ -1,6 +1,5 @@
 local M = {}
 local utils = require "clipboard-image.utils"
-local health = require "health"
 
 local packages = {
   x11 = { name = "xclip", binary = "xclip" },
